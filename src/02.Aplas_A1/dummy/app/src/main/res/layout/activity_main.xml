@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="@color/viewBgColor"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/myTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:text="@string/tv1Text"
+        android:textColor="@color/textColor"
+        android:textSize="14pt"
+        android:gravity="center"
+        android:fontFamily="@font/cambria"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="match_parent"
+        android:layout_height="20pt"
+        android:text="@string/btnText"
+        android:textColor="@color/textColor"
+        android:textSize="11pt"
+        android:background="@color/btnColor"
+        android:fontFamily="@font/lucida"
+        android:layout_below="@+id/myTextView1"/>
+
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="5pt"
+        android:layout_below="@id/convertButton"/>
+
+    <LinearLayout
+        android:id="@+id/child1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/space1" >
+        
+        <EditText
+            android:id="@+id/inputText"
+            android:layout_width="0dip"
+            android:layout_height="20pt"
+            android:layout_weight="0.2"
+            android:text="@string/inputText"
+            android:textColor="@color/textColor"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:fontFamily="@font/cambria"
+            android:gravity="center"
+            android:background="@color/etBgColor"
+            android:inputType="number"
+            android:hint="@string/hint"
+        />
+
+        <Spinner
+            android:id="@+id/oriList"
+            android:layout_width="0dip"
+            android:layout_height="20pt"
+            android:layout_weight="0.24"
+            android:entries="@array/tempList"
+            android:prompt="@string/inputPrompt"
+            android:spinnerMode="dialog"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/myTextView2"
+            android:layout_width="0dip"
+            android:layout_height="20pt"
+            android:layout_weight="0.12"
+            android:text="@string/tv2Text"
+            android:textColor="@color/textColor"
+            android:textSize="14pt"
+            android:textStyle="bold"
+            android:fontFamily="@font/cambria"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/outputText"
+            android:layout_width="0dip"
+            android:layout_height="20pt"
+            android:layout_weight="0.2"
+            android:text="@string/inputText"
+            android:textColor="@color/textColor"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:fontFamily="@font/cambria"
+            android:layout_gravity="center"
+            android:background="@color/etBgColor"
+            android:inputType="number"
+            android:enabled="false"
+            />
+
+        <Spinner
+            android:id="@+id/convList"
+            android:layout_width="0dip"
+            android:layout_height="20pt"
+            android:layout_weight="0.24"
+            android:entries="@array/tempList"
+            android:prompt="@string/inputPrompt"
+            android:spinnerMode="dialog"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/child2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/child1"
+        android:layout_marginTop="5pt"
+        >
+
+        <CheckBox
+            android:id="@+id/chkRounded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkRound"
+            android:textSize="8pt"
+            android:gravity="center"
+            android:checked="true"
+            />
+        <CheckBox
+            android:id="@+id/chkFormula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkForm"
+            android:textSize="8pt"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5pt"
+        android:orientation="horizontal"
+        android:layout_below="@id/child2">
+
+        <RadioButton
+            android:id="@+id/rbTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbTemp"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/rbDist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbDist" />
+
+        <RadioButton
+            android:id="@+id/rbWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbWeight" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:src="@drawable/temperature"
+        android:tag="@drawable/temperature"
+        android:layout_below="@id/radioGroup"
+        android:layout_marginTop="5pt"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5pt"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/header_style"
+                android:padding="5dp"
+                android:text="@string/rbTemp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_style"
+                android:padding="5dp"
+                android:text="0°C"
+                />
+            <TextView
+                android:id="@+id/tv13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_style"
+                android:padding="5dp"
+                android:text="32°F"
+                />
+            <TextView
+                android:id="@+id/tv14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_style"
+                android:padding="5dp"
+                android:text="273.15 K"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/tv21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/header_style"
+                android:padding="5dp"
+                android:text="@string/rbDist"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/tv22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_style"
+                android:padding="5dp"
+                android:text="1 Meter"
+                />
+            <TextView
+                android:id="@+id/tv23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_style"
+                android:padding="5dp"
+                android:text="39.3701 Inch"
+                />
+            <TextView
+                android:id="@+id/tv24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_style"
+                android:padding="5dp"
+                android:text="3.2808 feet"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/tv31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/header_style"
+                android:padding="5dp"
+                android:text="@string/rbWeight"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/tv32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_style"
+                android:padding="5dp"
+                android:text="1 Kg"
+                />
+            <TextView
+                android:id="@+id/tv33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_style"
+                android:padding="5dp"
+                android:text="35.2740 ounce"
+                />
+            <TextView
+                android:id="@+id/tv34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_style"
+                android:padding="5dp"
+                android:text="2.2046 pound"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imgFormula"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/formula"
+        android:layout_below="@id/table"
+        android:layout_marginTop="1pt"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        >
+    </ImageView>
+
+</RelativeLayout>
