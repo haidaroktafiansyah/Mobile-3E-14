@@ -1,13 +1,13 @@
 # Accessisble Documentation
 
-1. [Document hello world](docs/01_hello_world/01.md)
+1. [Document Hello World](docs/01_hello_world/01.md)
 
 2. [Document Layout](docs/02_layout/02.md)
 
-3. [Document basic activity](docs/03_basic_activity/03.md)
+3. [Document Basic Activity](docs/03_basic_activity/03.md)
 
+4. [Document Advanced Widget](docs/04_AdvancedWidgets/04.md)
 
-Basic Android
 # Petunjuk Laporan Praktikum Pemrograman-Android
 |  |  |
 |--|--|
