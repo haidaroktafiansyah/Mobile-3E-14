@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">#a1c8ce</item>
+        <item name="android:paddingLeft">1pt</item>
+        <item name="android:paddingRight">1pt</item>
+        <item name="android:paddingTop">1pt</item>
+        <item name="android:paddingBottom">1pt</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="ColoredButton">
+        <item name="android:layout_width">50pt</item>
+        <item name="android:layout_height">20pt</item>
+        <item name="android:textSize">8pt</item>
+    </style>
+
+    <style name="ProgressBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressTint">@color/greenLight</item>
+        <item name="android:minHeight">18dip</item>
+        <item name="android:maxHeight">25dip</item>
+    </style>
+
+</resources>
