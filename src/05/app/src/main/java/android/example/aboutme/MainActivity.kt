@@ -1,25 +1,31 @@
 package android.example.aboutme
 
 import android.content.Context
+import android.databinding.DataBindingUtil
+import android.example.aboutme.databinding.ActivityMainBinding
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
+
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+    private val myName: MyName = MyName("Aleks Haecky")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        val button: Button = findViewById(R.id.done_button)
+        val button: Button = binding.doneButton
         // Register the onClick listener with the implementation above
         button.setOnClickListener { view ->
             // do something when the button is clicked
-            val editText = findViewById<EditText>(R.id.nickname_edit)
-            val nicknameTextView = findViewById<TextView>(R.id.nickname_text)
+            binding.myName = myName
+            val editText = binding.nicknameEdit
+            val nicknameTextView = binding.nicknameText
 
             nicknameTextView.text = editText.text
             editText.visibility = View.GONE
