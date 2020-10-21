@@ -1,0 +1,13 @@
+
+
+	colors
+        -------
+
+   Primary  -  0040FF
+   PrimaryDark  -  10028F
+   Accent    -  FFFFFF
+
+
+	gradient- background
+	start - FF512F
+	end - F09819
