@@ -35,26 +35,26 @@ class GameFragment : Fragment() {
     // All questions must have four answers.  We'd want these to contain references to string
     // resources so we could internationalize. (Or better yet, don't define the questions in code...)
     private val questions: MutableList<Question> = mutableListOf(
-            Question(text = "What is Android Jetpack?",
-                    answers = listOf("All of these", "Tools", "Documentation", "Libraries")),
-            Question(text = "What is the base class for layouts?",
-                    answers = listOf("ViewGroup", "ViewSet", "ViewCollection", "ViewRoot")),
-            Question(text = "What layout do you use for complex screens?",
-                    answers = listOf("ConstraintLayout", "GridLayout", "LinearLayout", "FrameLayout")),
-            Question(text = "What do you use to push structured data into a layout?",
-                    answers = listOf("Data binding", "Data pushing", "Set text", "An OnClick method")),
-            Question(text = "What method do you use to inflate layouts in fragments?",
-                    answers = listOf("onCreateView()", "onActivityCreated()", "onCreateLayout()", "onInflateLayout()")),
-            Question(text = "What's the build system for Android?",
-                    answers = listOf("Gradle", "Graddle", "Grodle", "Groyle")),
-            Question(text = "Which class do you use to create a vector drawable?",
-                    answers = listOf("VectorDrawable", "AndroidVectorDrawable", "DrawableVector", "AndroidVector")),
-            Question(text = "Which one of these is an Android navigation component?",
-                    answers = listOf("NavController", "NavCentral", "NavMaster", "NavSwitcher")),
-            Question(text = "Which XML element lets you register an activity with the launcher activity?",
-                    answers = listOf("intent-filter", "app-registry", "launcher-registry", "app-launcher")),
-            Question(text = "What do you use to mark a layout for data binding?",
-                    answers = listOf("<layout>", "<binding>", "<data-binding>", "<dbinding>"))
+            Question(text = "1+1 ?",
+                    answers = listOf("2", "3", "4", "5")),
+            Question(text = "2+2?",
+                    answers = listOf("4", "5", "6", "7")),
+            Question(text = "3+3?",
+                    answers = listOf("6", "9", "7", "3")),
+            Question(text = "1-1?",
+                    answers = listOf("0", "4", "5", "7")),
+            Question(text = "1+2?",
+                    answers = listOf("3", "4", "6", "7")),
+            Question(text = "9-5",
+                    answers = listOf("4", "5", "3", "2")),
+            Question(text = "3-2?",
+                    answers = listOf("1", "6", "3", "2")),
+            Question(text = "4-2",
+                    answers = listOf("2", "3", "6", "5")),
+            Question(text = "1+4",
+                    answers = listOf("5", "3", "2", "4")),
+            Question(text = "5+5",
+                    answers = listOf("10", "11", "14", "4"))
     )
 
 
