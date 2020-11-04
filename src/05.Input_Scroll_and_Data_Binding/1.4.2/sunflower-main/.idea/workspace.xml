@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="517ae444-e258-4d4b-9246-eec93e79e0ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/.github/scripts/gradlew_recursive.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/.github/workflows/android.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/.github/workflows/copy-branch.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/.google/packaging.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/.idea/copyright/google.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/ASSETS_LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/androidTest/java/com/google/samples/apps/sunflower/GardenActivityTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/androidTest/java/com/google/samples/apps/sunflower/PlantDetailFragmentTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/androidTest/java/com/google/samples/apps/sunflower/data/GardenPlantingDaoTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/androidTest/java/com/google/samples/apps/sunflower/data/PlantDaoTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/androidTest/java/com/google/samples/apps/sunflower/utilities/LiveDataTestUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/androidTest/java/com/google/samples/apps/sunflower/utilities/MainTestRunner.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/androidTest/java/com/google/samples/apps/sunflower/utilities/TestUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/androidTest/java/com/google/samples/apps/sunflower/viewmodels/PlantDetailViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/androidTest/java/com/google/samples/apps/sunflower/worker/SeedDatabaseWorkerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/assets/plants.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/GalleryFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/GardenActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/GardenFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/HomeViewPagerFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/MainApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/PlantDetailFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/PlantListFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/adapters/BindingAdapters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/adapters/GalleryAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/adapters/GardenPlantingAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/adapters/PlantAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/adapters/PlantDetailBindingAdapters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/adapters/SunflowerPagerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/api/UnsplashService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/AppDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/Converters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/GardenPlanting.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/GardenPlantingDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/GardenPlantingRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/Plant.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/PlantAndGardenPlantings.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/PlantDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/PlantRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/UnsplashPagingSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/UnsplashPhoto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/UnsplashPhotoUrls.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/UnsplashRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/UnsplashSearchResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/data/UnsplashUser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/di/AssistedInjectModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/di/DatabaseModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/di/NetworkModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/utilities/Constants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/utilities/GrowZoneUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/utilities/InjectorUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/viewmodels/GalleryViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/viewmodels/GardenPlantingListViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/viewmodels/GardenPlantingListViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/viewmodels/PlantAndGardenPlantingsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/viewmodels/PlantDetailViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/viewmodels/PlantDetailViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/viewmodels/PlantListViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/views/MaskedCardView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/java/com/google/samples/apps/sunflower/workers/SeedDatabaseWorker.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/anim/slide_in_left.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/anim/slide_in_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/anim/slide_out_left.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/anim/slide_out_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/animator/show_toolbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/garden_tab_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/ic_detail_back.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/ic_detail_back_no_circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/ic_detail_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/ic_filter_list_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/ic_my_garden_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/ic_my_garden_inactive.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/ic_photo_library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/ic_plant_list_active.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/ic_plant_list_inactive.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/ic_plus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/plant_list_tab_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/drawable/tab_icon_color_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/layout/activity_garden.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/layout/fragment_gallery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/layout/fragment_garden.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/layout/fragment_plant_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/layout/fragment_plant_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/layout/fragment_view_pager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/layout/list_item_garden_planting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/layout/list_item_photo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/layout/list_item_plant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/menu/menu_plant_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/menu/menu_plant_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-hdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-mdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/navigation/nav_garden.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-bn/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-ca/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-de/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-es/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-fr/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-it/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-ja/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-night-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-night/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-ru/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-tr-rTR/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-v29/shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-zh-rCN/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values-zh-rTW/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values/anim.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values/integers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values/shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/test/java/com/google/samples/apps/sunflower/data/ConvertersTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/test/java/com/google/samples/apps/sunflower/data/GardenPlantingTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/test/java/com/google/samples/apps/sunflower/data/PlantTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/app/src/test/java/com/google/samples/apps/sunflower/utilities/GrowZoneUtilTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/screenshots/ic_launcher-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/screenshots/icon_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/screenshots/icon_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/screenshots/jetpack_donut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/screenshots/phone_my_garden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/screenshots/phone_plant_detail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/screenshots/phone_plant_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4.2/sunflower-main/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/androidTest/java/android/example/myapplication/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/java/android/example/myapplication/FirstFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/java/android/example/myapplication/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/java/android/example/myapplication/SecondFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/layout/fragment_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/test/java/android/example/myapplication/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/java/android/example/com/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/drawable/dice_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/drawable/dice_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/drawable/dice_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/drawable/dice_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/drawable/dice_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/drawable/dice_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/drawable/empty_dice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/androidTest/java/android/example/aboutme/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/java/android/example/aboutme/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/src/test/java/android/example/aboutme/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../resources of code/05.Kotlin/DiceImages.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../resources of code/05.Kotlin/sunflower-main.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/androidTest/java/android/example/com/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/androidTest/java/android/example/com/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/java/android/example/com/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/app/src/test/java/android/example/com/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/app/src/test/java/android/example/com/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/resources compability/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learn/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05.Kotlin/1.4/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_XL_API_30]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1isWTp6SrsELtbk8eIQNzQmdvm3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="sunflower-main.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="517ae444-e258-4d4b-9246-eec93e79e0ee" name="Default Changelist" comment="" />
+      <created>1602696789475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602696789475</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602729297405">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602729297405" />
+    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1602696896182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="263" key="IDE.errors.dialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602696896182" />
+  </component>
+</project>

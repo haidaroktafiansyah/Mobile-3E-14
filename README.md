@@ -8,6 +8,8 @@
 
 4. [Document Advanced Widget](docs/04_AdvancedWidgets/04.md)
 
+5. [Scroll and Data Binding](docs/05_scroll_and_data_binding/05.md)
+
 # Petunjuk Laporan Praktikum Pemrograman-Android
 |  |  |
 |--|--|
