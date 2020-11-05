@@ -24,7 +24,7 @@
 
         <variable
             name="viewmodel"
-            type="com.example.android.databinding.basicsample.data.SimpleViewModelSolution"/>
+            type="com.example.android.databinding.basicsample.data.SimpleViewModel"/>
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
