@@ -37,7 +37,7 @@ class PlainOldActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val binding: PlainActivityBinding = DataBindingUtil.setContentView(this, R.layout.solution)
+        val binding: PlainActivityBinding = DataBindingUtil.setContentView(this, R.layout.plain_activity)
 
         binding.lifecycleOwner = this  // use Fragment.viewLifecycleOwner for fragments
 
