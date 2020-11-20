@@ -26,7 +26,7 @@
             <GridView
                 android:id="@+id/grid_view"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="500dp"
                 android:layout_weight="1"
                 android:columnWidth="100dp"
                 android:gravity="center"
@@ -40,5 +40,6 @@
                 android:layout_height="wrap_content"
                 android:text="@{viewmodel.clicked}" />
         </LinearLayout>
+
     </FrameLayout>
 </layout>

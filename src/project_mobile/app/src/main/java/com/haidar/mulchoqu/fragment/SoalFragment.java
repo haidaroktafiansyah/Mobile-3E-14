@@ -55,6 +55,7 @@ public class SoalFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 binding.getViewmodel().setClicked(String.valueOf(i+1));
+                binding.clicked.setText(String.valueOf(i+1));
             }
         });
     }
