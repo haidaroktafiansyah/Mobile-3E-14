@@ -49,13 +49,13 @@ public class SoalFragment extends Fragment {
         GridSetsAdapter adapter = new GridSetsAdapter(20);
         dataList.setAdapter(adapter);
 
-        binding.clicked.setText(viewModel.getClicked());
+
 
         dataList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 binding.getViewmodel().setClicked(String.valueOf(i+1));
-                binding.clicked.setText(String.valueOf(i+1));
+                binding.clicked.setText(viewModel.getClicked());
             }
         });
     }
