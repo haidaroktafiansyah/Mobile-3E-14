@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/navigation"
+	app:startDestination="@id/score_dest">
+
+	<fragment
+		android:id="@+id/score_dest"
+		android:name="id.ac.polinema.skorviewmodel.fragments.ScoreFragment"
+		android:label="fragment_score"
+		tools:layout="@layout/fragment_score" >
+		<action
+			android:id="@+id/goal_scorer_action"
+			app:destination="@id/goal_dest" />
+	</fragment>
+	<fragment
+		android:id="@+id/goal_dest"
+		android:name="id.ac.polinema.skorviewmodel.fragments.GoalFragment"
+		android:label="fragment_goal"
+		tools:layout="@layout/fragment_goal" >
+		<action
+			android:id="@+id/action_goalFragment_to_scoreFragment"
+			app:destination="@id/score_dest" />
+		<argument
+			android:name="requestKey"
+			app:argType="string" />
+	</fragment>
+</navigation>
