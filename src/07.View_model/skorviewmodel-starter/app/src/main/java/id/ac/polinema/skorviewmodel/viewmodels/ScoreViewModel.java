@@ -19,14 +19,6 @@ public class ScoreViewModel extends ViewModel {
     private final MutableLiveData<ArrayList<GoalScorer>> awayGoalScorerList =
             new MutableLiveData<>(new ArrayList<GoalScorer>());
 
-    public int getHomeScore() {
-        return homeGoalScorerList.getValue().size();
-    }
-
-    public int getAwayScore() {
-        return awayGoalScorerList.getValue().size();
-    }
-
     public void setGoalScorer(String team, GoalScorer goalScorer) {
         if (team.equals(ScoreFragment.HOME)) {
             homeGoalScorerList.getValue().add(goalScorer);

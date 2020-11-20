@@ -12,7 +12,6 @@ import android.widget.Button;
 import android.widget.GridView;
 
 import com.haidar.mulchoqu.R;
-import com.haidar.mulchoqu.adapter.GridSetsAdapter;
 import com.haidar.mulchoqu.databinding.ActivitySetBinding;
 import com.haidar.mulchoqu.fragment.ScoreboardFragment;
 import com.haidar.mulchoqu.fragment.SoalFragment;

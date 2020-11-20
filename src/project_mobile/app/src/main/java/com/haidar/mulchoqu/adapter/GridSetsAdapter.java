@@ -1,5 +1,6 @@
 package com.haidar.mulchoqu.adapter;
 
+import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -7,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.haidar.mulchoqu.R;
 import com.haidar.mulchoqu.activity.SetActivity;
@@ -44,8 +46,6 @@ public class GridSetsAdapter extends BaseAdapter{
         } else {
             newView = view;
         }
-
-
         ((TextView) newView.findViewById(R.id.set_soal)).setText(String.valueOf(i+1));
 
         return newView;
