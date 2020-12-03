@@ -20,17 +20,18 @@
         app:layout_constraintVertical_bias="0.0">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/question_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="8dp"
             android:text="1/10"
+            android:textStyle="bold"
             android:textColor="@color/white"
             android:textSize="22sp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/qustion"
             android:layout_width="match_parent"
             android:layout_height="170dp"
             android:layout_margin="16dp"
@@ -44,15 +45,63 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.609"/>
+        app:layout_constraintVertical_bias="0.609" >
+
+        <Button
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:padding="16dp"
+            android:elevation="3dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:padding="16dp"
+            android:elevation="3dp"
+            android:layout_marginBottom="24dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:padding="16dp"
+            android:elevation="3dp"
+            android:layout_marginBottom="24dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:padding="16dp"
+            android:elevation="3dp"
+            android:layout_marginBottom="24dp"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/countdown"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:background="@drawable/rounded_corner"
+            android:text="10" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,6 @@
 package com.haidar.mulchoqu.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -16,10 +17,9 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.haidar.mulchoqu.R;
+import com.haidar.mulchoqu.activity.QuestionActivity;
 import com.haidar.mulchoqu.adapter.GridSoalAdapter;
 import com.haidar.mulchoqu.databinding.FragmentSoalBinding;
-import com.haidar.mulchoqu.model.POJOExample;
-import com.haidar.mulchoqu.model.POJOResult;
 import com.haidar.mulchoqu.model.SoalModel;
 import com.haidar.mulchoqu.model.SoalResult;
 import com.haidar.mulchoqu.retrofit.ApiService;
@@ -63,31 +63,14 @@ public class SoalFragment extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 binding.getViewmodel().setClicked(String.valueOf(i + 1));
                 binding.clicked.setText(viewModel.getClicked());
+                Intent intent = new Intent(getActivity(), QuestionActivity.class);
+                getActivity().startActivity(intent);
             }
         });
 
-        getDataFromApi();
     }
 
-    private final String Tag = "Data_Pertanyaan";
 
-    private void getDataFromApi() {
 
-        ApiService.endpoint().getData().enqueue(new Callback<SoalModel>() {
-            @Override
-            public void onResponse(Call<SoalModel> call, Response<SoalModel> response) {
-                List<SoalResult> daftar_soal = response.body().getResults();
-                if (daftar_soal.size() > 0) {
-                    Log.d(Tag, daftar_soal.get(0).getQuestion());
-                }else {
-                    Log.d(Tag, "Data null");
-                }
-            }
 
-            @Override
-            public void onFailure(Call<SoalModel> call, Throwable t) {
-                Log.d(Tag, t.getMessage());
-            }
-        });
-    }
 }
