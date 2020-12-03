@@ -18,7 +18,10 @@ import android.widget.GridView;
 import com.haidar.mulchoqu.R;
 import com.haidar.mulchoqu.adapter.GridSoalAdapter;
 import com.haidar.mulchoqu.databinding.FragmentSoalBinding;
-import com.haidar.mulchoqu.model.ApiModel;
+import com.haidar.mulchoqu.model.POJOExample;
+import com.haidar.mulchoqu.model.POJOResult;
+import com.haidar.mulchoqu.model.SoalModel;
+import com.haidar.mulchoqu.model.SoalResult;
 import com.haidar.mulchoqu.retrofit.ApiService;
 import com.haidar.mulchoqu.viewmodel.DataViewModel;
 
@@ -50,7 +53,7 @@ public class SoalFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        dataList= view.findViewById(R.id.grid_view);
+        dataList = view.findViewById(R.id.grid_view);
 
         GridSoalAdapter adapter = new GridSoalAdapter(20);
         dataList.setAdapter(adapter);
@@ -58,28 +61,33 @@ public class SoalFragment extends Fragment {
         dataList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                binding.getViewmodel().setClicked(String.valueOf(i+1));
+                binding.getViewmodel().setClicked(String.valueOf(i + 1));
                 binding.clicked.setText(viewModel.getClicked());
             }
         });
+
+        getDataFromApi();
     }
 
-    private final String Tag = "Data Pertanyaan";
-    private void getDataFromApi (){
-        ApiService.endpoint().getData()
-                .enqueue(new Callback<ApiModel>() {
-                    @Override
-                    public void onResponse(Call<ApiModel> call, Response<ApiModel> response) {
-                        if(response.isSuccessful()){
-                            List<ApiModel.data_pertanyaan> data_pertanyaan = response.body().getData_pertanyaan();
-                            Log.d(Tag,data_pertanyaan.toString());
-                        }
-                    }
+    private final String Tag = "Data_Pertanyaan";
 
-                    @Override
-                    public void onFailure(Call<ApiModel> call, Throwable t) {
-                        Log.d(Tag,t.toString());
-                    }
-                });
+    private void getDataFromApi() {
+
+        ApiService.endpoint().getData().enqueue(new Callback<SoalModel>() {
+            @Override
+            public void onResponse(Call<SoalModel> call, Response<SoalModel> response) {
+                List<SoalResult> daftar_soal = response.body().getResults();
+                if (daftar_soal.size() > 0) {
+                    Log.d(Tag, daftar_soal.get(0).getQuestion());
+                }else {
+                    Log.d(Tag, "Data null");
+                }
+            }
+
+            @Override
+            public void onFailure(Call<SoalModel> call, Throwable t) {
+                Log.d(Tag, t.getMessage());
+            }
+        });
     }
 }

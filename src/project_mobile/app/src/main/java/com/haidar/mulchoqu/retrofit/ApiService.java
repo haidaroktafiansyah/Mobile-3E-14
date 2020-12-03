@@ -5,17 +5,14 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiService {
 
-    private static String BASE_URL = "?amount=20&category=27&difficulty=medium&type=multiple";
-    private static Retrofit RETROFIT;
+    private static String BASE_URL = "https://opentdb.com/";
+    private static Retrofit retrofit;
     public static ApiEndPoint endpoint(){
-        Retrofit retrofit = new Retrofit.Builder()
+        retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
-        return RETROFIT.create(ApiEndPoint.class);
+        return retrofit.create(ApiEndPoint.class);
     }
-
-
-
 }

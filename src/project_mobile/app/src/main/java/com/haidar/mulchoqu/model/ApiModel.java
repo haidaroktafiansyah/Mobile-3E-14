@@ -1,23 +1,59 @@
 package com.haidar.mulchoqu.model;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.List;
 
 public class ApiModel {
 
-    private List<data_pertanyaan> data_pertanyaan;
+    private List<Result> result;
 
-    public List<ApiModel.data_pertanyaan> getData_pertanyaan() {
-        return data_pertanyaan;
+    public List<Result> getResult() {
+        return result;
     }
 
-    public void setData_pertanyaan(List<ApiModel.data_pertanyaan> data_pertanyaan) {
-        this.data_pertanyaan = data_pertanyaan;
+    public void setResult(List<Result> result) {
+        this.result = result;
     }
 
-    public class data_pertanyaan{
+    public class Result{
+        @SerializedName("category")
+        private String category;
+        @SerializedName("type")
+        private String type;
+        @SerializedName("difficulty")
+        private String difficulty;
+        @SerializedName("question")
         private String question;
+        @SerializedName("correct_answer")
         private String correct_answer;
-        private String incorrect_answer;
+
+
+
+
+        public String getCategory() {
+            return category;
+        }
+
+        public void setCategory(String category) {
+            this.category = category;
+        }
+
+        public String getType() {
+            return type;
+        }
+
+        public void setType(String type) {
+            this.type = type;
+        }
+
+        public String getDifficulty() {
+            return difficulty;
+        }
+
+        public void setDifficulty(String difficulty) {
+            this.difficulty = difficulty;
+        }
 
         public String getQuestion() {
             return question;
@@ -35,12 +71,14 @@ public class ApiModel {
             this.correct_answer = correct_answer;
         }
 
-        public String getIncorrect_answer() {
-            return incorrect_answer;
+        public String[] getIncorrect_answers() {
+            return incorrect_answers;
         }
 
-        public void setIncorrect_answer(String incorrect_answer) {
-            this.incorrect_answer = incorrect_answer;
+        public void setIncorrect_answers(String[] incorrect_answers) {
+            this.incorrect_answers = incorrect_answers;
         }
+
+        private String[] incorrect_answers;
     }
 }
