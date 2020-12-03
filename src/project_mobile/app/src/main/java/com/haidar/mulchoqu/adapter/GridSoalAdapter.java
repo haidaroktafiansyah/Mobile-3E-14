@@ -15,11 +15,11 @@ import com.haidar.mulchoqu.activity.SetActivity;
 
 import org.w3c.dom.Text;
 
-public class GridSetsAdapter extends BaseAdapter{
+public class GridSoalAdapter extends BaseAdapter{
 
     private int numOfSets;
 
-    public GridSetsAdapter(int numOfSets) {
+    public GridSoalAdapter(int numOfSets) {
         this.numOfSets = numOfSets;
     }
 

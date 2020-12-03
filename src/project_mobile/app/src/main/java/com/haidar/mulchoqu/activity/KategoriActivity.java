@@ -38,7 +38,7 @@ public class KategoriActivity extends AppCompatActivity {
 
         ArrayList<String> catList = new ArrayList<>();
 
-        catList.add("cat 1");
+        catList.add("Animal");
         catList.add("cat 2");
         catList.add("cat 3");
         catList.add("cat 4");
