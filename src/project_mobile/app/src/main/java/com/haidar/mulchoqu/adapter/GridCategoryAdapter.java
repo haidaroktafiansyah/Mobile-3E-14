@@ -20,9 +20,11 @@ import java.util.Random;
 public class GridCategoryAdapter extends RecyclerView.Adapter<GridCategoryAdapter.ViewHolder> {
 
     private ArrayList<String> categories = new ArrayList<>();
+    private ArrayList<String> id_categories = new ArrayList<>();
 
-    public GridCategoryAdapter(ArrayList<String> categories) {
+    public GridCategoryAdapter(ArrayList<String> categories, ArrayList<String> categories_id) {
         this.categories.addAll(categories);
+        this.id_categories.addAll(categories_id);
     }
 
     @NonNull
@@ -46,6 +48,7 @@ public class GridCategoryAdapter extends RecyclerView.Adapter<GridCategoryAdapte
                 Log.d("Info", "Button Pressed");
                 Intent intent = new Intent(holder.tvCategoryTitle.getContext(), SetActivity.class);
                 intent.putExtra("kategori",categories.get(position));
+                intent.putExtra("id_kategori",id_categories.get(position));
                 holder.tvCategoryTitle.getContext().startActivity(intent);
             }
         });

@@ -9,19 +9,30 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.util.Log;
 import android.view.MenuItem;
 
 
 import com.haidar.mulchoqu.R;
 import com.haidar.mulchoqu.adapter.GridCategoryAdapter;
 import com.haidar.mulchoqu.databinding.ActivitySetBinding;
+import com.haidar.mulchoqu.model.kategori.Kategori;
+import com.haidar.mulchoqu.model.kategori.TriviaCategoryModel;
+import com.haidar.mulchoqu.retrofit.ApiService;
 
 import java.util.ArrayList;
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class KategoriActivity extends AppCompatActivity {
 
     private RecyclerView dataList;
     ActivitySetBinding binding;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,19 +47,8 @@ public class KategoriActivity extends AppCompatActivity {
 
         dataList = findViewById(R.id.rv_category);
 
-        ArrayList<String> catList = new ArrayList<>();
+        getKategoriFromApi();
 
-        catList.add("Animal");
-        catList.add("cat 2");
-        catList.add("cat 3");
-        catList.add("cat 4");
-        catList.add("cat 5");
-        catList.add("cat 6");
-
-
-        GridCategoryAdapter adapter = new GridCategoryAdapter(catList);
-        dataList.setAdapter(adapter);
-        dataList.setLayoutManager(new GridLayoutManager(this, 2));
     }
 
     @Override
@@ -58,5 +58,36 @@ public class KategoriActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private List<TriviaCategoryModel> daftar_kategori;
+
+    private void getKategoriFromApi(){
+        ApiService.endpoint().getKategori().enqueue(new Callback<Kategori>() {
+            @Override
+            public void onResponse(Call<Kategori> call, Response<Kategori> response) {
+                daftar_kategori = response.body().getTriviaCategories();
+                setKategori();
+            }
+
+            @Override
+            public void onFailure(Call<Kategori> call, Throwable t) {
+
+            }
+        });
+    }
+
+    ArrayList<String> catList = new ArrayList<>();
+    ArrayList<String> catList_id = new ArrayList<>();
+    private void setKategori(){
+
+        for(int i=0; i<daftar_kategori.size(); i++){
+            catList.add(daftar_kategori.get(i).getName());
+            catList_id.add(String.valueOf(daftar_kategori.get(i).getId()));
+        }
+
+        GridCategoryAdapter adapter = new GridCategoryAdapter(catList,catList_id);
+        dataList.setAdapter(adapter);
+        dataList.setLayoutManager(new GridLayoutManager(this, 2));
     }
 }

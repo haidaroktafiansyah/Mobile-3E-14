@@ -3,24 +3,23 @@ package com.haidar.mulchoqu.activity;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.Animator;
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
-import android.widget.Switch;
 import android.widget.TextView;
 
 import com.haidar.mulchoqu.R;
-import com.haidar.mulchoqu.model.SoalModel;
-import com.haidar.mulchoqu.model.SoalResult;
+import com.haidar.mulchoqu.model.soal.SoalModel;
+import com.haidar.mulchoqu.model.soal.SoalResult;
 import com.haidar.mulchoqu.retrofit.ApiService;
-
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -34,14 +33,15 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
 
     private TextView question, qCount, timer;
     private Button option1, option2, option3, option4;
-    private int quesNumber;
+    private int quesNumber=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question);
 
-        getDataFromApi();
+        String id_kategori = getIntent().getStringExtra("id_kategori");
+        getDataFromApi("https://opentdb.com/api.php?amount=20&category="+id_kategori+"&difficulty=medium&type=multiple");
 
         question = findViewById(R.id.qustion);
         qCount = findViewById(R.id.question_number);
@@ -57,8 +57,6 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         option3.setOnClickListener(this);
         option4.setOnClickListener(this);
 
-        quesNumber = 0;
-        setQuestion();
     }
 
     @Override
@@ -92,12 +90,13 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
     private final String Tag = "Data_Pertanyaan";
     private List<SoalResult> daftar_soal;
 
-    private void getDataFromApi() {
+    private void getDataFromApi(String url) {
 
-        ApiService.endpoint().getData().enqueue(new Callback<SoalModel>() {
+        ApiService.endpoint().getSoal(url).enqueue(new Callback<SoalModel>() {
             @Override
             public void onResponse(Call<SoalModel> call, Response<SoalModel> response) {
-               daftar_soal  = response.body().getResults();
+                daftar_soal  = response.body().getResults();
+                setQuestion();
             }
 
             @Override
@@ -109,27 +108,33 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
 
     private void setQuestion(){
         timer.setText(String.valueOf(10));
-        Log.d("HasilOutput",daftar_soal.get(0).getQuestion());
-        question.setText(daftar_soal.get(0).getQuestion());
+        if(daftar_soal!=null){
+            question.setText(daftar_soal.get(quesNumber).getQuestion());
 
-        shuffle_jawaban(0);
+            shuffle_jawaban(quesNumber);
 
-        option1.setText(jawaban.get(0));
-        option2.setText(jawaban.get(1));
-        option3.setText(jawaban.get(2));
-        option4.setText(jawaban.get(3));
+            option1.setText(jawaban.get(0));
+            option2.setText(jawaban.get(1));
+            option3.setText(jawaban.get(2));
+            option4.setText(jawaban.get(3));
 
-        qCount.setText(1 + " / " + daftar_soal.size());
+            qCount.setText(1 + " / " + daftar_soal.size());
 
-        startTimer();
+            startTimer();
+        }else{
+            Log.d("check_data", "data_null");
+        }
+
     }
 
     private CountDownTimer CountDown;
     private void startTimer(){
-        CountDown = new CountDownTimer(10000,1000) {
+        CountDown = new CountDownTimer(12000,1000) {
             @Override
             public void onTick(long l) {
-                timer.setText(String.valueOf(l/1000));
+                if(l<10000){
+                    timer.setText(String.valueOf(l/1000));
+                }
             }
 
             @Override
@@ -178,7 +183,15 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             }
         }
 
-        changeQuestion();
+        //delay ganti soal
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable(){
+            @Override
+            public void run() {
+                changeQuestion();
+            }
+        },2000);
+
     }
 
     private void changeQuestion(){
@@ -212,6 +225,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
 
             }
 
+            @SuppressLint("ResourceAsColor")
             @Override
             public void onAnimationEnd(Animator animator) {
                 shuffle_jawaban(quesNumber);
@@ -232,6 +246,10 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                         case 4 :
                             ((Button)view).setText(jawaban.get(3));
                             break;
+                    }
+
+                    if(viewNum!=0){
+                        ((Button)view).setBackgroundTintList(ColorStateList.valueOf(R.color.hijau_basic_app));
                     }
 
                     playanim(view,1,viewNum);

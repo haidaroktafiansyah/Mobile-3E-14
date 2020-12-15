@@ -40,6 +40,9 @@ public class SetActivity extends AppCompatActivity implements View.OnClickListen
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        Bundle bundle = new Bundle();
+        bundle.putString("id_kategori", getIntent().getStringExtra("id_kategori"));
+        sf.setArguments(bundle);
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment,sf).commit();
 
         binding.buttonSoal.setOnClickListener(this);

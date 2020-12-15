@@ -1,4 +1,4 @@
-package com.haidar.mulchoqu.model;
+package com.haidar.mulchoqu.model.soal;
 
 import com.google.gson.annotations.SerializedName;
 

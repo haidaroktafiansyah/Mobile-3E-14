@@ -20,16 +20,7 @@ import com.haidar.mulchoqu.R;
 import com.haidar.mulchoqu.activity.QuestionActivity;
 import com.haidar.mulchoqu.adapter.GridSoalAdapter;
 import com.haidar.mulchoqu.databinding.FragmentSoalBinding;
-import com.haidar.mulchoqu.model.SoalModel;
-import com.haidar.mulchoqu.model.SoalResult;
-import com.haidar.mulchoqu.retrofit.ApiService;
 import com.haidar.mulchoqu.viewmodel.DataViewModel;
-
-import java.util.List;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class SoalFragment extends Fragment {
     private GridView dataList;
@@ -55,8 +46,12 @@ public class SoalFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         dataList = view.findViewById(R.id.grid_view);
 
-        GridSoalAdapter adapter = new GridSoalAdapter(20);
+        GridSoalAdapter adapter = new GridSoalAdapter(1);
         dataList.setAdapter(adapter);
+
+        String id_kategori = getArguments().getString("id_kategori");
+
+        Log.d("cek_kategori", id_kategori);
 
         dataList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -64,6 +59,7 @@ public class SoalFragment extends Fragment {
                 binding.getViewmodel().setClicked(String.valueOf(i + 1));
                 binding.clicked.setText(viewModel.getClicked());
                 Intent intent = new Intent(getActivity(), QuestionActivity.class);
+                intent.putExtra("id_kategori",id_kategori);
                 getActivity().startActivity(intent);
             }
         });
