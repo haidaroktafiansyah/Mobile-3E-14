@@ -10,6 +10,16 @@
 
 5. [Scroll and Data Binding](docs/05_scroll_and_data_binding/05.md)
 
+6. [Data Binding](docs/06_Data_Binding/06.md) 
+   
+7. [View Model](docs/07_View_Model/07.md)
+    
+8. [Recycle View](docs/08_Recycle_View/08.md)
+    
+9. [Retrofit](docs/09_Retrofit/09.md) 
+    
+10. [Project](docs/10_Project/10.md) 
+
 # Petunjuk Laporan Praktikum Pemrograman-Android
 |  |  |
 |--|--|
